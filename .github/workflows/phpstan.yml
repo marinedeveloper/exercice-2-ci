@@ -39,4 +39,4 @@ jobs:
           custom-cache-suffix: $(date -u "+%Y-%m")
 
       - name: Run PHPStan
-        run: phpstan analyse --configuration=phpstan.neon
+        run: vendor/bin/phpstan analyse src tests
