@@ -10,7 +10,7 @@ on:
       - synchronize
 
 jobs:
-  print:
+  calculator:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout du code
