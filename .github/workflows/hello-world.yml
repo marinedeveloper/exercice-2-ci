@@ -29,5 +29,3 @@ jobs:
 
       - name: Run Test Calculator
         run: vendor/bin/phpunit
-        with:
-          who-to-greet: Marine
