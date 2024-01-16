@@ -31,4 +31,3 @@ jobs:
         run: vendor/bin/phpunit
         with:
           who-to-greet: Marine
-
